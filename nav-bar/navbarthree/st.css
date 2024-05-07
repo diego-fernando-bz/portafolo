@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+img {
+    width: 40px;
+    height: auto;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 1%;
+    width: 100%;
+    height: 60px;
+}
+
+
+.hed nav .lista a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.hed nav .lista a:hover{
+    color: blueviolet;
+    
+}
+@media screen and (max-width: 450px){
+    .hed nav .lista {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        list-style:none ;
+        
+    }
+}
+    
